@@ -1,9 +1,10 @@
 <?php
 /**
- * Twitter Tweet plugin allows you to quick import a Twitter
+ * Tweets from Twitter plugin allows you to quick import a Twitter
  * status message into any post/page without having to copy the information.
  * 
- * Formats the output just like Twitter.
+ * Formats the output just like Twitter. Use custom CSS
+ * to be able to style it for your theme!
  * 
  * Note: PHP5 Only!
  * 
@@ -25,7 +26,7 @@ require_once(ABSPATH . WPINC . '/class-json.php');
 
 /*
 **************************************************************************
-Plugin Name:  Twitter Tweet
+Plugin Name:  Tweets from Twitter
 Plugin URI:   http://bugssite.org/projects/wordpress-plugins/twitter-tweet/
 Version:      1.0.0
 Description:  Shows a Twitter Status quickly in WordPress without copying the information.
