@@ -15,7 +15,7 @@
  */
 
  /**
- * Define the Twitter Tweet Plugin
+ * Define the 'Tweets from Twitter' Plugin Version Number
  * @version 1.0.0
  * @return none
  */
@@ -27,10 +27,11 @@ require_once(ABSPATH . WPINC . '/class-json.php');
 /*
 **************************************************************************
 Plugin Name:  Tweets from Twitter
-Plugin URI:   http://bugssite.org/projects/wordpress-plugins/twitter-tweet/
+Plugin URI:   http://bugssite.org/projects/wordpress-plugins/tweets-from-twitter/
 Version:      1.0.0
 Description:  Shows a Twitter Status quickly in WordPress without copying the information.
-Author:       Shane Froebel <http://bugssite.org> and Jonathan Dingman <http://wpvibe.com>
+Author:       Shane Froebel</a> <http://bugssite.org> and <a href='http://wpvibe.com/'>Jonathan Dingman</a>
+Author URI:	  http://bugssite.org/
 **************************************************************************/
 
 /**
@@ -137,8 +138,6 @@ function twittertweet_showtweet($content) {
 	$tweet_output .= '</div>';
 	$tweet_output .= '</div>';
 
-	//echo $tweet_output;
-	
 	return $tweet_output;
 }
 
