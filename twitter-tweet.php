@@ -29,8 +29,7 @@ Plugin Name:  Twitter Tweet
 Plugin URI:   http://bugssite.org/projects/wordpress-plugins/twitter-tweet/
 Version:      1.0.0
 Description:  Shows a Twitter Status quickly in WordPress without copying the information.
-Author:       Shane Froebel
-Author URI:   http://bugssite.org
+Author:       Shane Froebel <http://bugssite.org> and Jonathan Dingman <http://wpvibe.com>
 **************************************************************************/
 
 /**
