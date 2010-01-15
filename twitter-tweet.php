@@ -129,11 +129,11 @@ function twittertweet_showtweet($content) {
 	$user_generate = apply_filters('twittertweet_user', sprintf( __('<a href="http://twitter.com/%s" title="Visit %s Twitter Page">%s</a>'), $content['user'], $content['user'], $content['user']), $content['user']);
 	$timedate_generate = apply_filters('twittertweet_timedate', $content['timedate']);
 
-	$tweet_output .= '<div class="twitter_tweet">';
+	$tweet_output .= '<div class="tweeted">';
 	$tweet_output .= '<div>'.$text_generate.'</div>';
 	$tweet_output .= '<div style="padding-bottom: 10px;">';
-	$tweet_output .= '<div class="twitter_tweet_user"><img alt="" src="'.$content['gravatar'].'" class="tweeter_tweet_img" border="0" width="73" height="73" />'.$user_generate.'/'.apply_filters('twittertweet_realname', $content['realname']).'</div>';
-	$tweet_output .= '<div class="twitter_tweet_date">'.$timedate_generate.'</div>';
+	$tweet_output .= '<div class="tweeted_user"><img alt="" src="'.$content['gravatar'].'" class="tweeted_img" border="0" width="73" height="73" />'.$user_generate.'/'.apply_filters('twittertweet_realname', $content['realname']).'</div>';
+	$tweet_output .= '<div class="tweeted_date">'.$timedate_generate.'</div>';
 	$tweet_output .= '</div>';
 	$tweet_output .= '</div>';
 
@@ -149,7 +149,7 @@ function twittertweet_showtweet($content) {
  * @return none
  */
 function twittertweet_default_styles(&$styles) {
-	$styles->add( 'twitter-tweet', WP_PLUGIN_URL . '/twitter-tweet.css' , '', '20100112' );
+	$styles->add( 'twitter-tweet', WP_PLUGIN_URL . '/include-tweets-from-twitter/twitter-tweet.css' , '', '20100112' );
 }
 
 /**

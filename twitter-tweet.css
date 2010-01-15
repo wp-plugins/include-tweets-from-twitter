@@ -1,4 +1,4 @@
-.twitter_tweet {
+.tweeted {
 	background: #000;	/* change me if you want */
 	margin: 20px; 
 	padding: 5px 5px 78px;
@@ -6,18 +6,21 @@
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
-.twitter_tweet_user {
+
+.tweeted_user {
 	padding-top: 10px;
 	float: left;
 	width: 50%;
 }
-.twitter_tweet_date {
+
+.tweeted_date {
 	float: left;
 	width: 50%;
 	padding-top: 38px;
 	text-align: right;
 }
-.tweeter_tweet_img {
+
+.tweeted_img {
 	vertical-align: middle;
 	padding-right: 5px;
 }
